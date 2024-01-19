@@ -1,0 +1,147 @@
+    @font-face {
+        font-family: 'GilroyBold';
+        src: url(./fonts/gilroy-bold.ttf);
+    }
+    
+    @font-face {
+        font-family: 'GilroyMedium';
+        src: url(./fonts/gilroy-medium.ttf);
+    }
+    
+    @font-face {
+        font-family: 'GilroySemibold';
+        src: url(./fonts/gilroy-semibold.ttf);
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .Menu_Bar {
+        padding-top: 40px;
+        display: inline-flex;
+        padding-left: 375px;
+        padding-right: 375px;
+        padding-bottom: 84px;
+        width: 1170px;
+        height: 40px;
+    }
+    
+    .HomePage {
+        background: #FFF;
+        max-width: 1920px;
+    }
+    
+    .logo {
+        display: inline-flex;
+    }
+    
+    .grow {
+        color: #000;
+        font-family: GilroyBold;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .be {
+        color: #F25822;
+        font-family: GilroyBold;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .menu {
+        padding-left: 500px;
+    }
+    
+    .menu__link_other_color {
+        color: #b40e0e;
+        font-family: GilroyMedium;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .menu__link {
+        color: #000;
+        font-family: GilroyMedium;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text_menu {
+        display: inline-flex;
+    }
+    
+    .title {
+        color: #000;
+        font-family: GilroyBold;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .HomeMeta {
+        width: 522px;
+        padding-top: 164px;
+        padding-left: 373px;
+        padding-right: 1025px;
+        width: 522px;
+    }
+    
+    .SubTitle {
+        color: #888;
+        font-family: GilroyMedium;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .start {
+        color: #FFF;
+        font-family: GilroyBold;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 140px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #F25822;
+        box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+        width: 140px;
+        height: 50px;
+        margin-right: 72px;
+        margin-left: 2px;
+        margin-top: 37px;
+    }
+    
+    .watch {
+        background-color: white;
+        border: none;
+        color: #AAA;
+        font-family: Gilroy-Bold;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .logo_panel {
+        width: 1200px;
+        height: 50px;
+        padding-top: 97px;
+        padding-left: 345px;
+        padding-bottom: 96px;
+    }
