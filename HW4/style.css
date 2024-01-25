@@ -1,0 +1,203 @@
+    @font-face {
+        font-family: 'GilroyBold';
+        src: url(./fonts/gilroy-bold.ttf);
+    }
+    
+    @font-face {
+        font-family: 'GilroyMedium';
+        src: url(./fonts/gilroy-medium.ttf);
+    }
+    
+    @font-face {
+        font-family: 'GilroySemibold';
+        src: url(./fonts/gilroy-semibold.ttf);
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .HomePage {
+        background: #FFF;
+        height: 700px;
+        max-width: 1920px;
+    }
+    
+    .Menu_Bar {
+        padding-top: 40px;
+        padding-left: 375px;
+        display: flex;
+        width: 1170px;
+        height: 40px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 500px;
+    }
+    
+    .logo {
+        display: flex;
+        width: 137px;
+        height: 40px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 14px;
+    }
+    
+    .logo_img {
+        width: 35px;
+        height: 40px;
+    }
+    
+    .grow {
+        color: #000;
+        font-family: GilroyBold;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .be {
+        color: #F25822;
+        font-family: GilroyBold;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .menu {
+        display: flex;
+        width: 533px;
+        height: 17px;
+    }
+    
+    .text_menu {
+        order: 0;
+        width: 533px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu__link_and_icon {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+    .icon {
+        width: 6px;
+        height: 3px;
+    }
+    
+    .menu__link_other_color {
+        color: #F25822;
+        font-family: GilroySemibold;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .menu__link {
+        color: #000;
+        font-family: GilroyMedium;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .HomeMeta {
+        display: flex;
+        width: 1172px;
+        padding-top: 84px;
+        padding-left: 373px;
+        gap: 40.94px;
+    }
+    
+    .text_home_meta {
+        width: 522px;
+        height: 374px;
+    }
+    
+    .title {
+        color: #000;
+        font-family: GilroyBold;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .SubTitle {
+        padding-top: 17px;
+        width: 466px;
+        height: 48px;
+        color: #888;
+        font-family: GilroyMedium;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .buttom_home {
+        display: flex;
+        padding-top: 37px;
+        width: 302px;
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    .start {
+        color: #FFF;
+        font-family: GilroyBold;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 140px;
+        height: 50px;
+        border-radius: 50px;
+        background: #F25822;
+        box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    }
+    
+    .watch {
+        background-color: white;
+        border: none;
+        color: #AAA;
+        font-family: Gilroy-Bold;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .image {
+        width: 544.814px;
+        height: 374.843px;
+    }
+    
+    .Brand {
+        width: 1920px;
+        height: 243px;
+    }
+    
+    .logo_panel {
+        display: flex;
+        gap: 48px;
+        width: 1200px;
+        height: 50px;
+        padding-top: 97px;
+        padding-left: 345px;
+    }
