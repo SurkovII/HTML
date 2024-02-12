@@ -87,6 +87,10 @@
             gap: 30px;
         }
         
+        .box4 .photo_2 {
+            display: none;
+        }
+        
         .box1,
         .box2,
         .box3 {
